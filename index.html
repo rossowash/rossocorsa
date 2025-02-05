@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автомойка "Чистый Авто"</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Чистый Авто</div>
+        <nav>
+            <ul>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Профессиональная автомойка</h1>
+        <p>Быстро, качественно, доступно!</p>
+        <a href="#booking" class="btn">Записаться онлайн</a>
+    </section>
+
+    <section id="services">
+        <h2>Наши услуги</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Мойка кузова</h3>
+                <p>Цена: 500 руб.</p>
+            </div>
+            <div class="service-item">
+                <h3>Химчистка салона</h3>
+                <p>Цена: 1500 руб.</p>
+            </div>
+            <!-- Добавьте другие услуги -->
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Мы работаем на рынке уже 10 лет и предлагаем лучшие услуги по уходу за вашим автомобилем.</p>
+    </section>
+
+    <section id="reviews">
+        <h2>Отзывы</h2>
+        <div class="review-list">
+            <div class="review-item">
+                <p>"Отличный сервис, быстро и качественно!"</p>
+                <span>- Иван</span>
+            </div>
+            <!-- Добавьте другие отзывы -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Адрес: ул. Автомойкина, 123</p>
+        <p>Телефон: +7 (123) 456-78-90</p>
+        <div id="map"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Автомойка "Чистый Авто"</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
